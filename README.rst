@@ -42,10 +42,15 @@ Installation Prerequisites
 Installation
 ------------
      $ sudo apt-get update
+ 
      $ sudo apt install build-essential
+ 
      $ sudo apt install gcc
+
      $ sudo apt install gcc-multilib
+
      $ sudo apt install g++
+
      $ sudo apt install g++-multilib
      
 Get the latest version of phasepy from
@@ -72,8 +77,12 @@ Phasepy's documentation is available on the web:
 Getting Started
 ---------------
 
-Base input variables include temperature [K], pressure [bar] and molar
-volume [cm^3/mol]. Specification of a mixture starts with
+Base input variables include temperature [K]
+
+pressure [bar] 
+
+molar volume [cm^3/mol]
+
 
 Bug reports
 -----------
