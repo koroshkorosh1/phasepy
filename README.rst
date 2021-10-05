@@ -41,7 +41,13 @@ Installation Prerequisites
 
 Installation
 ------------
-
+     $ sudo apt-get update
+     $ sudo apt install build-essential
+     $ sudo apt install gcc
+     $ sudo apt install gcc-multilib
+     $ sudo apt install g++
+     $ sudo apt install g++-multilib
+     
 Get the latest version of phasepy from
 https://pypi.python.org/pypi/phasepy/
 
@@ -68,37 +74,6 @@ Getting Started
 
 Base input variables include temperature [K], pressure [bar] and molar
 volume [cm^3/mol]. Specification of a mixture starts with
-specification of pure components:
-
-.. code-block:: python
-
-   >>> from phasepy import component, mixture
-   >>> water = component(name='water', Tc=647.13, Pc=220.55, Zc=0.229, Vc=55.948,
-                         w=0.344861, GC={'H2O':1})
-   >>> ethanol = component(name='ethanol', Tc=514.0, Pc=61.37, Zc=0.241, Vc=168.0,
-		           w=0.643558, GC={'CH3':1, 'CH2':1, 'OH(P)':1})
-   >>> mix = mixture(ethanol, water)
-
-Here is an example how to calculate the bubble point vapor composition
-and pressure of saturated 50 mol-% ethanol - 50 mol-% water liquid
-mixture at temperature 320 K using Peng Robinson EoS. In this example
-the Modified Huron Vidal mixing rule utilizes the Dortmund Modified
-UNIFAC activity coefficient model for the solution of the mixture EoS.
-
-.. code-block:: python
-
-   >>> mix.unifac()
-   >>> from phasepy import preos
-   >>> eos = preos(mix, 'mhv_unifac')
-   >>> from phasepy.equilibrium import bubblePy
-   >>> y_guess, P_guess = [0.2, 0.8], 1.0
-   >>> bubblePy(y_guess, P_guess, X=[0.5, 0.5], T=320.0, model=eos)
-   (array([0.70761727, 0.29238273]), 0.23248584919691206)
-
-For more examples, please have a look at the Jupyter Notebook files
-located in the *examples* folder of the sources or
-`view examples in github <https://github.com/gustavochm/phasepy/tree/master/examples>`_.
-
 
 Bug reports
 -----------
