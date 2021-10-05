@@ -1,16 +1,12 @@
-=======
-phasepy
-=======
+# phasepy
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
-.. image:: https://mybinder.org/badge_logo.svg
-   :target: https://mybinder.org/v2/gh/gustavochm/phasepy/master
 
-Introduction
+## Introduction
 ------------
 
 Phasepy is an open-source scientific Python package for calculation of
-`physical properties of phases <https://en.wikipedia.org/wiki/Physical_property>`_ at
-`thermodynamic equilibrium <https://en.wikipedia.org/wiki/Thermodynamic_equilibrium>`_.
+physical properties of phases at thermodynamic equilibrium .
 Main application areas include computation of fluid phase equilibria
 and interfacial properties.
 
@@ -31,7 +27,7 @@ tension using the Square Gradient Theory (SGT).
 
 Phasepy supports fitting of model parameter values from experimental data.
 
-Installation Prerequisites
+## Installation Prerequisites
 --------------------------
 - numpy
 - scipy
@@ -39,7 +35,7 @@ Installation Prerequisites
 - openpyxl
 - C/C++ Compiler for Cython extension modules
 
-Installation
+## Installation
 ------------
      $ sudo apt-get update
  
@@ -66,7 +62,7 @@ files:
     $ git clone https://github.com/gustavochm/phasepy
 
 
-Documentation
+## Documentation
 -------------
 
 Phasepy's documentation is available on the web:
@@ -74,7 +70,7 @@ Phasepy's documentation is available on the web:
     https://phasepy.readthedocs.io/en/latest/
 
 
-Getting Started
+## Getting Started
 ---------------
 
 Base input variables include temperature [K]
@@ -92,7 +88,7 @@ To report bugs, please use the phasepy's Bug Tracker at:
     https://github.com/gustavochm/phasepy/issues
 
 
-License information
+## License information
 -------------------
 
 See ``LICENSE.txt`` for information on the terms & conditions for usage
@@ -106,3 +102,13 @@ any changes you make back, and benefit the community.
 Chaparro, G., Mejía, A. Phasepy: A Python based framework for fluid phase
 equilibria and interfacial properties computation. J Comput Chem. 2020, 41, 29,
 2504-2526. `https://doi.org/10.1002/jcc.26405 <https://doi.org/10.1002/jcc.26405>`_.
+
+## Connect with me 
+
+<a href="https://twitter.com/koroshkorosh11"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
+<a href="https://t.me/koroshkorosh1"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/koroshkorosh1/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://www.reddit.com/user/koroshkorosh1"><img src="	https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"></a>
+<a href="mailto:koroshuni@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://open.spotify.com/user/31ojwb23shspr6yxfudndihfrvae"><img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"></a>
+<br><br>
